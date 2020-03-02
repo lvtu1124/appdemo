@@ -14,4 +14,4 @@ Route::get('appdemo', function () {
     return 'hello,appdemo!';
 });
 
-Route::get('appdemo/hello/:name', 'index/hello');
+Route::get('appdemo/hello/:name', 'lvtu\appdemo\controller\index@index');
