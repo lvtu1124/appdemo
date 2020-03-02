@@ -7,7 +7,7 @@ class Index extends BaseController
 {
     public function index()
     {
-        return 'appdemo工作流模块';
+        return 'appdemo模块';
     }
 
 }
