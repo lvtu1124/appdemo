@@ -10,8 +10,7 @@
 // +----------------------------------------------------------------------
 use think\facade\Route;
 
-Route::get('appdemo', function () {
-    return 'hello,appdemo!';
-});
-
 Route::get('appdemo/index/:name', 'lvtu\appdemo\controller\index@index');
+Route::get('appdemo', function () {
+    return 'hello,appdemo11111111!';
+});
