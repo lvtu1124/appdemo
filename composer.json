@@ -27,10 +27,10 @@
     },
     "autoload": {
         "psr-4": {
-            "lvtu\\appdemo\\": "app"
+            "lvtu\\appdemo\\": "src"
         },
         "psr-0": {
-            "lvtu\\appdemo\\": "extend/"
+            "lvtu\\appdemo\\": "extend"
         }
     },
     "config": {
@@ -42,7 +42,7 @@
                 "lvtu\\appdemo\\service\\Appdemo"
             ],
             "config": {
-                "appdemo": "src/config/appdemo.php"
+                "appdemo": "config/appdemo.php"
             }
         }
     }
