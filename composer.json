@@ -39,7 +39,7 @@
     "extra": {
         "think": {
             "services": [
-                "lvtu\\appdemo\\service"
+                "lvtu\\appdemo\\service\\Appdemo"
             ],
             "config": {
                 "appdemo": "src/config/appdemo.php"
