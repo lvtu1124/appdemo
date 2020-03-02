@@ -13,5 +13,4 @@ use think\facade\Route;
 Route::get('appdemo', function () {
     return 'hello,appdemo11111111!';
 });
-
 Route::get('appdemo/index/:name', 'lvtu\appdemo\controller\index@index');
